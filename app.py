@@ -10,7 +10,7 @@ Created on Sun Aug 12 14:54:37 2020
 ######################
 import re
 import numpy as np 
-import pubchempy as pcp
+#import pubchempy as pcp
 import streamlit as st
 import pickle
 from PIL import Image
@@ -179,7 +179,7 @@ fingerprints = [Chem.rdMolDescriptors.GetMorganFingerprintAsBitVect(m, radius=2,
 
 #Convert training fingerprints into binary, and put all training binaries into arrays
 import numpy as np 
-import pubchempy as pcp
+#import pubchempy as pcp
 
 fingerprints_array = []
 for fingerprint in fingerprints:
