@@ -10,7 +10,7 @@ Created on Sun Aug 14 14:54:37 2020
 ######################
 import re
 import numpy as np 
-#import pubchempy as pcp
+import pubchempy as pcp
 import streamlit as st
 import pickle
 from PIL import Image
