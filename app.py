@@ -73,7 +73,7 @@ def render_mol(xyz):
     style = st.sidebar.selectbox('Chemical structure',['line','cross','stick','sphere'])
 #spin = st.sidebar.checkbox('Spin', value = False)
     spin = st.sidebar.checkbox('Animation', value = False)
-    #xyzview.spin(True)
+    #xyzview.spin(True)#
     if spin:
       xyzview.spin(True)
     else:
